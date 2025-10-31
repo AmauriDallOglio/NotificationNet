@@ -22,9 +22,6 @@ namespace CadastroUsuario.Api.Controllers
                 return Ok(ResultadoOperacaoGenerico<T>.GerarSucesso(dados, mensagemSucesso));
 
             return BadRequest(ResultadoOperacaoGenerico<T>.GerarFalha(_notificacoes.ObterNotificacoes()));
-
- 
-
         }
     }
 }

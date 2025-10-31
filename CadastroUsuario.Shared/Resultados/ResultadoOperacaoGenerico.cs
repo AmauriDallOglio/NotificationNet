@@ -19,5 +19,4 @@
             return new(false, default, notificacoes.Select(n => $"{n.Chave}: {n.Mensagem}"), null);
         }
     }
-
 }
